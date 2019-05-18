@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Secular+One&display=swap');
+body {
+    direction: rtl;
+    background-image: url(../images/back.JPG);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#container {
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.45);
+    color: black;
+    padding:30px;
+}
+
+#logo {
+    background-image: url('../images/logo.png');
+    width: 429px;
+    height: 300px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    margin:15px;
+}
+h1 {
+    margin: 15px;
+    font-size: 50px;
+    text-align: center
+}
+p {
+    margin: 40px 15px;
+    text-align: center
+}
+#details {
+    text-align: right;
+    margin: 5px 15px;
+}
+
+form {
+    margin: 5px 15px;
+}
+#FirstName {
+    display: block;
+    margin: 5px 0px;
+}
+#LastName {
+    display: block;
+    margin: 5px 0px;
+}
+#email {
+    display: block;
+    margin: 5px 0px;
+}
+#phoneNum {
+    display: block;
+    margin: 5px 0px;
+}
+#Send {
+    margin: 5px 0px;
+}
+#hit {
+    margin: 5px 15px;
+    text-decoration: underline dotted darkred;
+    color: darkred;
+    text-align: center;
+    font-size: 35px;
+}
+imput#FirstName {
+    margin: 5px 15px;
+    align-self:center;
+}

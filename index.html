@@ -1,0 +1,65 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>פרסום- הפקולטה לטכנולוגיות למידה</title>
+    <meta name="description" content="הפקולטה לטכנולוגיות למידה במכון הטכנולוגי חולון. דף פרסום, השאירו פרטים ליצירת קשר." />
+    <meta name="keywords" content="צור קשר, פקולטה לטכנולוגיות למידה, מכון טכנולוגי חולון" />
+    <meta name="author" content="אורי אלון" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <div id="container">
+        <article>
+            <aside id="logo"></aside>
+           
+                <h1>הפקולטה לטכנולוגיות למידה 
+                    <br />במכון הטכנולוגי חולון</h1>
+                <p>אם יש לכם זיקה לטכנולוגיה, לעיצוב ולאנשים
+                    <br />
+                הצטרפו אלינו ותתחילו להשפיע על האנשים של היום ועל האנשים של המחר</p>
+                <p>בתואר מעשי זה פסיכולוגים ילמדו אתכם את תהליכי הלמידה של בני האדם, אנשי פיתוח ילמדו את שפות התכנות הרלוונטיות ביותר לשוק העבודה 
+                    <br />
+                ואנשי עיצוב ילמדו אתכם לעצם את המוצר המושלם</p>
+                <p id="details">לקבלת עוד מידע, השאירו פרטים ונציג יחזור אליכם</p>
+                <form action="/" method="post">
+                    <input type="hidden" id="myEmail" name="name" value="oriallon26@gmail.com">
+                    <label for="FirstName">
+                        <b> שם פרטי:</b>
+                        <input type="text" id="FirstName" placeholder="אנא הכנס את השמך הפרטי" />
+                    </label>
+
+                    <label for="LastName">
+                        <b>שם משפחה</b>:
+                        <input type="text" id="LastName" placeholder="הכנס את שם המשפחה שלך" />
+                    </label>
+                    <label for="email">
+                        <b>דואר אלקטרוני</b>
+                        <input type="text" id="email" placeholder="אנא הכנס את הדואר האלקטרוני שלך" />
+                    </label>
+                    <label for="phoneNum">
+                        <b>מספר טלפון:</b>
+                        <input type="number" id="phoneNum" placeholder="טלפון ליצירת קשר" />
+                    </label>
+
+                    <input type="submit" id="Send" value="שלח">
+                    <div id="feedback"></div>
+                </form>
+
+                <a id="hit" href="https://www.hit.ac.il/telem/overview" target="_blank">לחצו עליי לקבלת מידע נוסף</a>
+           
+        </article>
+    </div>
+</body>
+</html>
